@@ -73,8 +73,8 @@ while run:
 
     x2 = float(x1 + length2 * math.sin(angle2))
     y2 = float(y1 + length2 * math.cos(angle2))
-
-    # the angle varies with respect to the velocity and the velocity with respect to the acceleration
+    
+  # угол меняется в зависимости от скорости, а скорость зависит от ускорения
     angle_velocity1 += angle_acceleration1
     angle_velocity2 += angle_acceleration2
     angle1 += angle_velocity1
