@@ -1,11 +1,11 @@
 import math
 
 """
-v= velocity
-t = angle
-m = mass
-L = length
-G = gravity
+v= скорость
+t = угол
+m = масса 
+L = длинна  
+G = гравитац. 
 """
 
 def FirstAcceleration(t1, t2, m1, m2, L1, L2, G, v1, v2):
