@@ -33,7 +33,7 @@ scatter2 = []
 
 LIST_LIMIT = 100
 
-#COLORS
+#Цвета
 BACKGROUND = (20, 20, 20)
 SCATTERLINE1 = (255, 255, 255)
 SCATTERLINE2 = (255, 255, 0)
@@ -64,7 +64,7 @@ while run:
             if event.key == pygame.K_ESCAPE:
                 run = False
 
-    # calculate the acceleration
+    #  вычислить ускорение
     angle_acceleration1 = formular.FirstAcceleration(angle1, angle2, mass1, mass2, length1, length2, Gravity, angle_velocity1, angle_velocity2)
     angle_acceleration2 = formular.SecondAcceleration(angle1, angle2, mass1, mass2, length1, length2, Gravity, angle_velocity1, angle_velocity2)
 
